@@ -7,7 +7,7 @@
  *  1. Various array indexes access in multiple times (more than algorithms
     like Quicksort).
  *  2. There isn't a usage BEST case of this algorithm, only average and worst
-    and both has time comprexity of O-(N^2) where "n" is the number of elements or
+    and both has time complexity of O-(N^2) where "n" is the number of elements or
     the input array size (more precisely). 
 */
 
@@ -15,7 +15,7 @@
 
 #include "bubble.h"
 
-/* Swap two integers */
+/* Swap two integer values */
 void swap (int32_t *x, int32_t *y)
 {
     int32_t temp = *x;

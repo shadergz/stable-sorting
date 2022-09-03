@@ -1,7 +1,7 @@
 CC=clang
 CFLAGS=-Wall -O2 -ffast-math
 
-all:
+all: bubble_test merge_sort_test
 
 bubble_test:
 	$(CC) $(CFLAGS) -o $@ bubble.c bubble_test.c
